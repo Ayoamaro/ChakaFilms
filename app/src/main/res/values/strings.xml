@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ChakaFilms</string>
+
+    <string name="fondo_lbl_ID">ID de la película</string>
+    <string name="fondo_lbl_TITULO">Título</string>
+    <string name="fondo_lbl_AGNO">Año</string>
+    <string name="fondo_lbl_PAIS">País</string>
+    <string name="fondo_lbl_DIRECTOR">Director</string>
+    <string name="fondo_lbl_ACTORES">Actores</string>
+    <string name="fondo_lbl_SIPNOSIS">Sipnosis</string>
+</resources>

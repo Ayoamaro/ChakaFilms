@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.app.chakafilms.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/fondoPHOTO"
+            android:layout_width="fill_parent"
+            android:layout_height="600dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/titanic" />
+
+        <!--        Internacionalizar la APP https://developer.android.com/guide/topics/resources/string-resource#java -->
+        <TextView
+            android:id="@+id/fondoID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fondoPHOTO"
+            android:background="@color/purple_200"
+            android:text="@string/fondo_lbl_ID"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <!--    Posicionamiento de objetos    https://developer.android.com/guide/topics/ui/layout/relative -->
+        <TextView
+            android:id="@+id/fondoTITULO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fondoID"
+            android:background="@color/purple_500"
+            android:text="@string/fondo_lbl_TITULO"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fondoAGNO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fondoTITULO"
+            android:background="@color/purple_700"
+            android:text="@string/fondo_lbl_AGNO"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fondoPAIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fondoAGNO"
+            android:background="@color/purple_200"
+            android:text="@string/fondo_lbl_PAIS"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fondoDIRECTOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fondoPAIS"
+            android:background="@color/purple_500"
+            android:text="@string/fondo_lbl_DIRECTOR"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fondoACTORES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fondoDIRECTOR"
+            android:background="@color/purple_700"
+            android:text="@string/fondo_lbl_ACTORES"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fondoSIPNOSIS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fondoACTORES"
+            android:background="@color/purple_200"
+            android:text="@string/fondo_lbl_SIPNOSIS"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
